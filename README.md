@@ -72,6 +72,14 @@ Tomcat and WildFly/JBoss. This allows external data store to store
 HTTP Sessions, among other data, independent of the application layer, 
 which provides multiple benefits:
 
+#### Application Composability - Multiple Apps of Service
+
+By externalizing sessions and using multiple apps that form a service and 
+bouncing users across these apps, you
+can realize scenarios such as shopping cart state 
+traveling with users as they navigate experiences
+through multiple apps.
+
 #### Application Elasticity
 
 By making the application stateless additional Web apps may be added to 
@@ -183,7 +191,7 @@ open http://localhost:8080/Stateful-Tracker/
 
 ![](./media/Cloud-Scale-Web-App-Session-Management.jpg)
 
-## Next Right Step - Scale Stateful Java App in Cloud
+## Next Right Step - Scale Stateful Java Apps in Cloud
 
 Go to - https://github.com/Azure-Samples/scaling-stateful-java-web-app-on-azure 
 
