@@ -138,7 +138,7 @@ mvn package
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] Copying 1 resource
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ Stateful-Tracker ---
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ Stateful-Tracker ---
 [INFO] Changes detected - recompiling the module!
 [INFO] Compiling 2 source files to /Users/selvasingh/stateful-java-web-app/target/classes
 [INFO] 
@@ -146,24 +146,24 @@ mvn package
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/selvasingh/stateful-java-web-app/src/test/resources
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ Stateful-Tracker ---
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ Stateful-Tracker ---
 [INFO] No sources to compile
 [INFO] 
 [INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ Stateful-Tracker ---
 [INFO] No tests to run.
 [INFO] 
-[INFO] --- maven-war-plugin:2.6:war (default-war) @ Stateful-Tracker ---
+[INFO] --- maven-war-plugin:3.2.2:war (default-war) @ Stateful-Tracker ---
 [INFO] Packaging webapp
 [INFO] Assembling webapp [Stateful-Tracker] in [/Users/selvasingh/stateful-java-web-app/target/Stateful-Tracker-1.0.0-SNAPSHOT]
 [INFO] Processing war project
 [INFO] Copying webapp resources [/Users/selvasingh/stateful-java-web-app/src/main/webapp]
-[INFO] Webapp assembled in [55 msecs]
+[INFO] Webapp assembled in [105 msecs]
 [INFO] Building war: /Users/selvasingh/stateful-java-web-app/target/Stateful-Tracker-1.0.0-SNAPSHOT.war
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 1.956 s
-[INFO] Finished at: 2019-02-18T16:18:33-08:00
+[INFO] Total time: 2.129 s
+[INFO] Finished at: 2019-02-18T21:13:31-08:00
 [INFO] Final Memory: 20M/307M
 [INFO] ------------------------------------------------------------------------
 
@@ -182,11 +182,10 @@ mvn cargo:deploy -Denv=local
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 1.341 s
-[INFO] Finished at: 2019-02-18T16:20:28-08:00
+[INFO] Total time: 1.418 s
+[INFO] Finished at: 2019-02-18T21:15:12-08:00
 [INFO] Final Memory: 10M/309M
 [INFO] ------------------------------------------------------------------------
-
 ```
 
 Open the app:
