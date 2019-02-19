@@ -1,5 +1,11 @@
 # Stateful Java Web App
 
+This Java Web app is a STATEFUL Java Web app.
+
+## Requirements
+
+| [Java 8](https://www.azul.com/downloads/azure-only/zulu) | [Maven 3](http://maven.apache.org/) | [Git](https://github.com/) |
+
 ## HTTP == Stateless
 HTTP is a [stateless protocol](https://tools.ietf.org/html/rfc7230#page-5). 
 This means each time a client retrieves a Web page, the client opens 
