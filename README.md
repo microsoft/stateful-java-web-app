@@ -198,7 +198,7 @@ Go to - https://github.com/Azure-Samples/scaling-stateful-java-web-app-on-azure
 ## References
 - [Servlets - Session Tracking](https://www.tutorialspoint.com/servlets/servlets-session-tracking.htm)
 - [Persistent Sessions](https://www.oxxus.net/tutorials/tomcat/persistent-sessions)
-- [Scaling Stageful Services](https://www.infoq.com/news/2015/11/scaling-stateful-services)
+- [Scaling Stateful Services](https://www.infoq.com/news/2015/11/scaling-stateful-services)
 - [Pivotal Session Managers: redis-store](https://github.com/pivotalsoftware/session-managers/tree/master/redis-store)
 - [Externalize Sessions](https://access.redhat.com/documentation/en-us/red_hat_data_grid/7.1/html/administration_and_configuration_guide/externalize_sessions)
 - [Cloud Scale Azure Redis Cache](https://docs.microsoft.com/en-us/azure/azure-cache-for-redis/cache-overview#azure-cache-for-redis-offerings)
